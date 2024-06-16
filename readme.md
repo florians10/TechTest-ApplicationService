@@ -2,9 +2,9 @@
 
 ## Background
 
-A fintech company is successfully distributing `ProductOne` to consumers. They use an external company, `AdministratorOne`, to manage the Investors, Accounts and Payments.
+A fintech company distributes `ProductOne` using an external company, `AdministratorOne`, to manage the Investors, Accounts and Payments.
 
-The company wants to offer a second product, `ProductTwo`, using `AdministratorTwo`.  
+The company wants to launch `ProductTwo` using `AdministratorTwo`.  
 
 In the future, the company might use `AdministratorTwo` for `ProductOne`.  And, of course, you can imagine the company will want to quickly launch more Products.
 
@@ -25,13 +25,13 @@ The goal of this exercise is to process Applications for both Products, ensuring
 ### Notes
 
 - `Services.AdministratorOne.Abstractions` is a third-party library.
-- You may add new projects to the solution.
-- You may add appropriate nuget packages.
+- You may add new projects to the solution, and add appropriate nuget references.
 - You may change and add new types defined in `Services.Common.Model`. But, because this library is shared within the company, you'll need to justify your decision.
 - The exercise should take no-longer than two hours.  Don't implement:
     - Simple validation (required, min-length etc).
     - Argument checking
     - Logging
 - Keep a simple log of your decisions etc.  See [log](log.md)
-- Commit often and push when you're ready.  Please let Tembo know when you're complete
+- Commit often to demonstrate your thought process.  
+- When you're ready, push and let Tembo know when you're done.
 
