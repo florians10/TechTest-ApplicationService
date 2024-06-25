@@ -32,7 +32,7 @@ The goal of this exercise is to process Applications for both Products, ensuring
 - Keep a simple log of your decisions etc.  See [log](log.md)
 - Be prepared to discuss your solution in a follow-up interview.
 
-- ### Notes
+### Notes
 
 - `Services.AdministratorOne.Abstractions` and `Services.AdministratorTwo.Abstractions` are third-party libraries.  You can't change them.
 - You may add new projects to the solution, and add appropriate nuget references.
