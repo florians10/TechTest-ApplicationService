@@ -26,7 +26,7 @@ The goal of this exercise is to process Applications for both Products, ensuring
 ### Tips
 
 - Write clean, readable code.
-- Write tests.  See `ProductOneTests` for an example.
+- Write tests.  See `ProductOneTests` for an example. Ensure `dotnet test` runs your tests and they all pass.
 - Demonstrate knowledge of SOLID principles and design patterns.
 - Be a perfectionist.  But, remember, done is better than perfect.
 - Keep a simple log of your decisions etc.  See [log](log.md)
