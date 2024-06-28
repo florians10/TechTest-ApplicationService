@@ -34,6 +34,7 @@ The goal of this exercise is to process Applications for both Products, ensuring
 
 ### Notes
 
+- Both Administrators provide the same functionality but expose different interfaces.
 - `Services.AdministratorOne.Abstractions` and `Services.AdministratorTwo.Abstractions` are third-party libraries.  You can't change them.
 - You may add new projects to the solution, and add appropriate nuget references.
 - You may change and add new types defined in `Services.Common.Model`. But, because this library is shared within the company, you'll need to justify your decision.
