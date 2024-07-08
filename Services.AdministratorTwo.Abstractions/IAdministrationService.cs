@@ -8,4 +8,6 @@ public interface IAdministrationService  {
     Task<Result<Guid>> CreateAccountAsync(Guid investorId, ProductCode productCode);
     
     Task<Result<Guid>> ProcessPaymentAsync(Guid accountId, Payment payment);
+
+
 }

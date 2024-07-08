@@ -10,6 +10,9 @@
       <ProjectReference Include="..\Services.AdministratorOne.Abstractions\Services.AdministratorOne.Abstractions.csproj" />
       <ProjectReference Include="..\Services.AdministratorTwo.Abstractions\Services.AdministratorTwo.Abstractions.csproj" />
       <ProjectReference Include="..\Services.Common\Services.Common.csproj" />
+      <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+        <_Parameter1>Services.Applications.Tests</_Parameter1>
+      </AssemblyAttribute>
     </ItemGroup>
 
 </Project>
